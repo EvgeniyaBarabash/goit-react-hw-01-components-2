@@ -1,0 +1,29 @@
+.transaction {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+}
+th,
+td:first-child {
+  background: #afcde7;
+  color: white;
+  padding: 10px 20px;
+}
+th,
+td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+}
+td {
+  background: #d8e6f3;
+}
+th:first-child,
+td:first-child {
+  text-align: left;
+}

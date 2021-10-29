@@ -1,0 +1,36 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.status {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.online {
+  composes: status;
+  background-color: green;
+}
+.offline {
+  composes: status;
+  background-color: red;
+}
+.name {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 10px;
+}
